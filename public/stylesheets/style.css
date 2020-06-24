@@ -1,0 +1,15 @@
+.container{
+	margin-top: 50px;
+}
+.review {padding-bottom: 5px !important;}
+.panel-body.review-container {padding-top: 0 !important;}
+.review-header {margin-bottom: 10px !important;}
+.reviewAuthor {margin: 0 5px !important;}
+.reviewTimestamp {color: #ccc !important;}
+.yel{
+	margin-right: 5px;
+}
+.mybtn{
+	display:inline;
+}
+

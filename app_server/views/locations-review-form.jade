@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  .row#pageHeader
+    .col-sm-12
+      h1 Review Starcups
+    hr
+  .row
+    .col-xs-12.col-lg-7
+      form(method='get', action='/location')
+        div.form-group
+          label(for='name') Name
+          input.form-control#name(type='text', name='name')
+        div.form-group
+          label(for='rating') Rating
+          select.form-control#rating.input-sm(name='rating')
+            option 5
+            option 4
+            option 3
+            option 2
+            option 1
+        div.form-group
+          label(for='review') Review
+          textarea.form-control#review(name='review', rows='5')
+       button.btn.btn-success.pull-right(type='submit') Add my review 	
